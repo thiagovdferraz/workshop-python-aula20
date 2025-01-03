@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "crud-aula20"
+version = "0.1.0"
+description = "aula jornada dados sobre CRUD com back e frontend"
+authors = ["Thiago Ferraz"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+pydantic = "^2.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
